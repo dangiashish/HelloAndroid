@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.codebyashish.myfirstapp"
+    namespace = "com.codebyashish.helloandroid"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.codebyashish.myfirstapp"
+        applicationId = "com.codebyashish.helloandroid"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

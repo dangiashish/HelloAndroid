@@ -1,4 +1,4 @@
-package com.codebyashish.myfirstapp;
+package com.codebyashish.helloandroid;
 
 import org.junit.Test;
 
