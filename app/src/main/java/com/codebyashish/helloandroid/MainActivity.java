@@ -17,20 +17,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         activity = this;
-
         btn = findViewById(R.id.btnClick);
-
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(), "Clicked", Toast.LENGTH_SHORT).show();
-
                 Intent intent = new Intent(activity, SecondActivity.class   );
                 intent.putExtra("key", "CodeByAshish");
                 startActivity(intent);
-
             }
         });
 
